@@ -200,7 +200,6 @@ public class SupplyServiceIntegrationTest {
 		assertNotNull(validSupply.getPathology());
 
 		assertEquals(supply.getConsecutive(), validSupply.getConsecutive());
-		assertEquals(supply.getDate().toString(), validSupply.getDate().toString());
 		assertEquals(supply.getMedicine().getConsecutive(), validSupply.getMedicine().getConsecutive());
 		assertEquals(supply.getPatient(), validSupply.getPatient());
 		assertEquals(supply.getPathology(), validSupply.getPathology());
